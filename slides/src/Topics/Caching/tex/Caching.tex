@@ -1,0 +1,65 @@
+\documentclass{beamer}
+\usepackage{Slides}
+
+\begin{document}
+
+\title[Caching]{Caching}
+\author[Hrachya Tandilyan\copyright]{Hrachya Tandilyan}
+\date{2021}
+
+%-------------------------------------------------------------------------------------------------
+\begin{frame}
+\titlepage
+\end{frame}
+%-------------------------------------------------------------------------------------------------
+
+\section{SectionTitle}
+%-------------------------------------------------------------------------------------------------
+\begin{frame}\frametitle{FrameTitle}
+\begin{block}{BlockTitle}
+    text
+\end{block}
+\vfill
+Items
+\begin{itemize}
+    \item ItemExample1
+    \item ItemExample2
+\end{itemize}
+\vfill
+enums
+\begin{enumerate}
+    \item EnumExample1
+    \item EnumExample2
+\end{enumerate}
+\end{frame}
+%-------------------------------------------------------------------------------------------------
+
+\subsection{SubsectionTitle}
+%-------------------------------------------------------------------------------------------------
+\begin{frame}\frametitle{Picture example}
+%\begin{center}
+%    \includegraphics[scale=0.3]{picture.png}
+%\end{center}
+\end{frame}
+%-------------------------------------------------------------------------------------------------
+
+\section{SectionTitle2}
+\subsection{SubsectionTitle2}
+%-------------------------------------------------------------------------------------------------
+\begin{frame}[fragile]\frametitle{Highlighted Code Example}
+\begin{minted}[fontsize=\scriptsize]{cpp}
+class SomeClass {
+
+public:
+    SomeClass();
+
+    virtual Something* SomeMethod() const { return new Something; }
+
+private:
+    SomethingElse someField;
+};
+\end{minted}
+\end{frame}
+%-------------------------------------------------------------------------------------------------
+
+\end{document}
